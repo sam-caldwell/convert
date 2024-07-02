@@ -1,8 +1,7 @@
 package convert
 
 // DecodeHexByte64 -  decodes two sets of hexadecimal bytes and returns the resulting byte values
-//
-//	(c) 2023 Sam Caldwell.  MIT License
+
 func DecodeHexByte64(value *[8]byte, src []byte) (ok bool) {
 	if len(src) == 16 {
 		/*
