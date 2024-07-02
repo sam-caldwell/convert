@@ -6,8 +6,6 @@ import (
 )
 
 // ToMorseCode - Write an ASCII string in morse code.
-//
-//	(c) 2023 Sam Caldwell.  MIT License
 func ToMorseCode(input string) (string, error) {
 	output := ""
 

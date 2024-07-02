@@ -8,8 +8,6 @@ import (
 )
 
 // PdfToMarkdown - reads a PDF file and converts its text to Markdown format
-//
-//	(c) 2023 Sam Caldwell.  MIT License
 func PdfToMarkdown(pdfPath string, mdPath string) (err error) {
 	var r *os.File
 	var pdfReader *pdf.Reader

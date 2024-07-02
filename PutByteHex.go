@@ -1,8 +1,6 @@
 package convert
 
 // PutByteHex - store a byte array as a hex byte array
-//
-//	(c) 2023 Sam Caldwell.  MIT License
 func PutByteHex(hexOutput, byteSource []byte) {
 
 	/*
