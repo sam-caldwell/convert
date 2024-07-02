@@ -2,9 +2,10 @@ package convert
 
 import (
 	"fmt"
-	"github.com/sam-caldwell/monorepo/go/exit/errors"
+	"github.com/sam-caldwell/errors/v2"
 )
 
+// BytesToInt32 - Convert byte array to int32
 func BytesToInt32(b []byte) (int32, error) {
 	if b == nil || len(b) != 4 {
 		return 0, fmt.Errorf(errors.BoundsCheckError)
