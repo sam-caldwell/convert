@@ -3,9 +3,10 @@ package convert
 import "unicode"
 
 // Capitalizep - Capitalize the first character of the *string
-//
-//	(c) 2023 Sam Caldwell.  MIT License
 func Capitalizep(s *string) string {
+	if s == nil {
+		return ""
+	}
 	if *s == "" {
 		return *s
 	}
