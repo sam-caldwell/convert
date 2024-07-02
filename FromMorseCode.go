@@ -7,8 +7,6 @@ import (
 )
 
 // FromMorseCode - Convert morse code to an ASCII string.
-//
-//	(c) 2023 Sam Caldwell.  MIT License
 func FromMorseCode(morseCode string) (string, error) {
 	morseCode = strings.TrimSpace(morseCode)
 	morseWords := strings.Split(morseCode, "/")
