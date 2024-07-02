@@ -1,7 +1,6 @@
 package convert
 
 // DecodeHexByte - Decode a hexadecimal byte
-
 func DecodeHexByte(value *byte, c1, c2 byte) (ok bool) {
 	/*
 	 * A hex number is two characters (0x00 - 0xFF)
