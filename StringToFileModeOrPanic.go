@@ -7,7 +7,7 @@ import (
 
 // StringToFileModeOrPanic - Convert a string permission (e.g. 0600) to FileMode numeric value
 func StringToFileModeOrPanic(value string) os.FileMode {
-	number, err := strconv.Atoi(value)
+	number, err := strconv.ParseUint(value, 8, 64)
 	if err != nil {
 		panic(err)
 	}
