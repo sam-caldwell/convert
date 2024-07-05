@@ -2,7 +2,7 @@ package convert
 
 import (
 	"fmt"
-	ansi2 "github.com/sam-caldwell/monorepo/go/ansi"
+	"github.com/sam-caldwell/ansi"
 	"strings"
 )
 
@@ -16,7 +16,7 @@ func FromMorseCode(morseCode string) (string, error) {
 		morseChars := strings.Split(word, " ")
 		for charPos, morseChar := range morseChars {
 			if asciiChar, ok := morseCodeToASCII[morseChar]; ok {
-				ansi2.Green().Printf("%d:%d[%s] ", wordPos, charPos, asciiChar)
+				ansi.Green().Printf("%d:%d[%s] ", wordPos, charPos, asciiChar)
 				output += asciiChar
 			} else {
 				if strings.TrimSpace(morseChar) != "" {
@@ -26,7 +26,7 @@ func FromMorseCode(morseCode string) (string, error) {
 		}
 		output += " "
 	}
-	ansi2.LF().Reset()
+	ansi.LF().Reset()
 
 	return strings.TrimSpace(output), nil
 }

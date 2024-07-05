@@ -3,7 +3,6 @@ package convert
 import (
 	"encoding/binary"
 	"fmt"
-	endianness "github.com/sam-caldwell/monorepo/go/convert/Endianness"
 	"unsafe"
 )
 

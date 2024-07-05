@@ -2,7 +2,6 @@ package convert
 
 import (
 	"fmt"
-	"github.com/sam-caldwell/monorepo/go/misc/words"
 	"testing"
 )
 
@@ -20,7 +19,7 @@ func TestErrorToString(t *testing.T) {
 		{
 			name: "Without error",
 			err:  nil,
-			want: words.EmptyString,
+			want: "",
 		},
 	}
 
