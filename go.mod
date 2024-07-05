@@ -6,7 +6,7 @@ require (
 	github.com/sam-caldwell/ansi v1.0.0
 	github.com/sam-caldwell/endianness v1.0.0
 	github.com/sam-caldwell/errors v1.0.0
-	github.com/sam-caldwell/types v1.0.0
+	github.com/sam-caldwell/types v1.0.1
 )
 
 require github.com/sam-caldwell/exit v1.0.0 // indirect

@@ -6,5 +6,5 @@ github.com/sam-caldwell/errors v1.0.0 h1:L/AsSSITPWq8YmtQikHnPfbNOruG/TIddPsCV4n
 github.com/sam-caldwell/errors v1.0.0/go.mod h1:lZIVGM3grlaHjtZziLfGruJvF1cP+QTERP5ZavehpX0=
 github.com/sam-caldwell/exit v1.0.0 h1:zqVdK1Pdpww1RRTzwOAq1OMDwLLUUd94T2gqQF2kpHc=
 github.com/sam-caldwell/exit v1.0.0/go.mod h1:gy6m0KCj1RZ+KafgZVahgAxdwVm9pud/6O+lZz0NpFw=
-github.com/sam-caldwell/types v1.0.0 h1:ANRcHYmn68Yl/dKU5mUTp5skmAjkR399xIcuZ3zDQJE=
-github.com/sam-caldwell/types v1.0.0/go.mod h1:FEGFiYX1yZlEXpXDcK0PRo4LRWVxT83vxtjUWPIPMKk=
+github.com/sam-caldwell/types v1.0.1 h1:kZdFJACYFYlKRWqPOlHnYOiN5kx17/22YBzZBRm/6LE=
+github.com/sam-caldwell/types v1.0.1/go.mod h1:FEGFiYX1yZlEXpXDcK0PRo4LRWVxT83vxtjUWPIPMKk=
