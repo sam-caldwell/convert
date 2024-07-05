@@ -1,9 +1,8 @@
-module github.com/sam-caldwell/convert/v2
+module github.com/sam-caldwell/convert
 
 go 1.22.4
 
 require (
-	github.com/dslipak/pdf v0.0.2
 	github.com/sam-caldwell/errors v1.0.0
 	github.com/sam-caldwell/monorepo v0.0.6
 )
