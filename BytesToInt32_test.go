@@ -1,7 +1,7 @@
 package convert
 
 import (
-	"github.com/sam-caldwell/errors/v2"
+	"github.com/sam-caldwell/errors"
 	"testing"
 )
 

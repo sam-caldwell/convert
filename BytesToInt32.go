@@ -2,7 +2,7 @@ package convert
 
 import (
 	"fmt"
-	"github.com/sam-caldwell/errors/v2"
+	"github.com/sam-caldwell/errors"
 )
 
 // BytesToInt32 - Convert byte array to int32

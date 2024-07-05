@@ -1,7 +1,7 @@
 package convert
 
 import (
-	"github.com/sam-caldwell/monorepo/go/exit/errors"
+	"github.com/sam-caldwell/errors"
 	"math"
 	"strconv"
 )
