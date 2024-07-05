@@ -3,12 +3,9 @@ module github.com/sam-caldwell/convert
 go 1.22.4
 
 require (
+	github.com/sam-caldwell/ansi v1.0.0
 	github.com/sam-caldwell/errors v1.0.0
-	github.com/sam-caldwell/types v0.0.1
+	github.com/sam-caldwell/types v1.0.0
 )
 
-require (
-	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/spf13/cobra v1.8.1 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
-)
+require github.com/sam-caldwell/exit v1.0.0 // indirect
