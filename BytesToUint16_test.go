@@ -19,7 +19,7 @@ func TestBytesToUint16(t *testing.T) {
 			for lsb := 0; lsb < 255; lsb++ {
 				c := 256*msb + lsb
 				if v := BytesToUint16([2]byte{byte(msb), byte(lsb)}); v != uint16(c) {
-					t.Fatalf("Faild at %d:%d == %d", msb, lsb, c)
+					t.Fatalf("Failed at %d:%d == %d", msb, lsb, c)
 				}
 
 			}
