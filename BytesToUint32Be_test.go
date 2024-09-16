@@ -1,0 +1,32 @@
+package convert
+
+import "testing"
+
+func TestBytesToUint32Be(t *testing.T) {
+	t.Run("test simple", func(t *testing.T) {
+		if v := BytesToUint32Be([4]byte{0x00}); v != 0x00 {
+			t.Fatal("failed with 0x00")
+		}
+		if v := BytesToUint32Be([4]byte{0x10, 0x00, 0x00, 0x00}); v != 0x10000000 {
+			t.Fatal("failed with 0x00000001")
+		}
+		if v := BytesToUint32Be([4]byte{0x00, 0x00, 0x00, 0x01}); v != 0x00000001 {
+			t.Fatal("failed with 0x00001000")
+		}
+	})
+	t.Run("test range", func(t *testing.T) {
+		testData := map[uint32][4]byte{
+			0x00000000: {0x00, 0x00, 0x00, 0x00},
+			0x00000001: {0x00, 0x00, 0x00, 0x01},
+			0x00000002: {0x00, 0x00, 0x00, 0x02},
+			0x00000003: {0x00, 0x00, 0x00, 0x03},
+			0x00000004: {0x00, 0x00, 0x00, 0x04},
+			0x00000005: {0x00, 0x00, 0x00, 0x05},
+		}
+		for k, v := range testData {
+			if k != BytesToUint32Be(v) {
+				t.Fatal("failed with k:", k, "v:", v)
+			}
+		}
+	})
+}
