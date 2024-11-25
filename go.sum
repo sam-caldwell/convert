@@ -1,5 +1,5 @@
-github.com/sam-caldwell/ansi v1.0.2 h1:2jNRJg8I0r+HIqKMdWpqwfCftr/IuSNHyrDgQxZ23qA=
-github.com/sam-caldwell/ansi v1.0.2/go.mod h1:R553t3P2UM/FpxUF0IRWQNsfa3F7L6RYkWoOdpco8Tg=
+github.com/sam-caldwell/ansi v1.0.3 h1:Nzfn400fd6vbejbffrZfxhyINAX78jN4GT1aJtY6kTI=
+github.com/sam-caldwell/ansi v1.0.3/go.mod h1:R553t3P2UM/FpxUF0IRWQNsfa3F7L6RYkWoOdpco8Tg=
 github.com/sam-caldwell/endianness v1.0.0 h1:E1m5MxgZVQuZPRD0HuNvk9aKz5taShMvQz5N2TW5u7Y=
 github.com/sam-caldwell/endianness v1.0.0/go.mod h1:gJwJ1cfo85/sYPrz0Aa02pHJZT74nO7+D3d6wLo56BE=
 github.com/sam-caldwell/errors v1.0.7 h1:jWw9ZLTaHxKWNYyPZpTuBA2WCAZ9OrLVp3VOQVmLb+I=
